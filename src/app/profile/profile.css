@@ -1,0 +1,20 @@
+.profile_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20%;
+}
+.profile_home h1 {
+    font-size: 3rem;
+}
+
+.profile_home p {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .profile_home {
+        padding: 30%;
+    }
+}

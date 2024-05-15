@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  app: 
+    container_name: app
+    image: app_oh_studio
+    ports:
+      - 2000:3000
